@@ -1,1 +1,0 @@
-# cn-detailing
