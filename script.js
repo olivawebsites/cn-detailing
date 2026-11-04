@@ -38,6 +38,7 @@ if (intro) {
     intro.remove();
     document.body.classList.remove("intro-on");
   } else {
+    document.body.classList.add("intro-on");
     intro.focus();
     intro.addEventListener("click", (e) => enterSite(e.clientX, e.clientY));
     intro.addEventListener("keydown", (e) => {
